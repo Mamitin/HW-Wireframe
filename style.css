@@ -1,34 +1,46 @@
-<head>>
-  <style>
-
-  code {
-    background: #777;
-    border-radius: 6px;
+  html {
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    width: 960px;
+    background-color: #777;
     color: #777;
-    display: block;
-    font: 18px "arial, helvetica neue, helvetica, sans-serif"
-    padding: 24px 15px;
+    font: 18px "arial, helvetica neue, helvetica, sans-serif";
     text-align: center;
   }
+
   header,
+  nav,
   section,
   aside,
   footer {
     margin: 0 1.5% 24px 1.5%;
     background: #ebebeb;
   }
+
   section {
-    float: left;
-    width: 6495px%;
+    width: 495px;
   }
+  
+  article {
+    color: #ebebeb;
+    background-color: #777;
+    float: left;
+  }
+
   aside {
     float: right;
     width: 30%;
   }
+
+  h1, p {
+    Color: #ebebeb;
+    background-color: #777;
+  }
+
   footer {
     clear: both;
     margin-bottom: 0;
   }
-
-  <style>
-</head>
